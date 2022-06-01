@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /* Header */
 
 header {
@@ -104,8 +108,13 @@ main {
 .discount, .type {
     color: #fff;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 6px 10px;
+}
+
+.prize-discount, .prize-normal {
+    font-size: 13px;
+    font-weight: 900;
 }
 
 .img-content:nth-child(2) .type, .img-content:nth-child(3) .type {
@@ -116,9 +125,18 @@ main {
     display: none;
 }
 
-.img-content:nth-child(6) .type {
+.img-content:nth-child(6) .discount {
     display: none;
 }
+
+.img-content:nth-child(5) .prize-normal {
+    display: none;
+}
+
+.img-content:nth-child(6) .prize-normal {
+    display: none;
+}
+
 
 .heart {
     width: 30px;
@@ -133,7 +151,6 @@ main {
 
 .prize-discount {
     color: red;
-    font-weight: 700;
 }
 
 .prize-normal {
@@ -182,7 +199,7 @@ footer {
 
 .azienda, .dove-trovarci {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 5px;
 }
 
