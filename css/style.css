@@ -24,7 +24,7 @@ header {
     display: flex;
 }
 
-.img-container {
+.logo-container {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -52,11 +52,74 @@ header {
 
 .category a, .icon-container i {
     color: #fff;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 .category a {
     text-decoration: none;
 }
 
+/* Main */
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.main-container {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.img-content{
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.img-content img {
+    width: 97%;
+}
+
+.img-hover {
+    display: none;
+}
+
+.tag {
+    position: absolute;
+    bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.discount {
+    background-color: red;
+}
+
+.type {
+    background-color: green;
+}
+
+.discount, .type {
+    color: #fff;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #fff;
+    font-size: 30px;
+}
+
+.prize-discount {
+    color: red;
+    font-weight: 700;
+}
+
+.prize-normal {
+    text-decoration: line-through;
+}
