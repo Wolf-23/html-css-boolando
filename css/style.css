@@ -1,5 +1,62 @@
+/* Regola di Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+
+header {
+    background-color: #FF6800;
+    box-shadow: 0 0 15px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-container {
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.img-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.category  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    list-style: none;
+    width: 20%;
+}
+
+.logo {
+    height: 40%;
+}
+
+.category a, .icon-container i {
+    color: #fff;
+    padding: 0 5px;
+}
+
+.category a {
+    text-decoration: none;
+}
+
+
