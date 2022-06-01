@@ -15,6 +15,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .header-container {
@@ -70,17 +71,20 @@ main {
     display: flex;
     padding-top: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .img-content{
     width: calc(100% / 3);
     position: relative;
+    margin-bottom: 50px;
 }
 
 .img-content img {
-    width: 97%;
+    width: 96%;
 }
 
-.img-hover {
+.second-image {
     display: none;
 }
 
@@ -104,6 +108,18 @@ main {
     padding: 3px;
 }
 
+.img-content:nth-child(2) .type, .img-content:nth-child(3) .type {
+    display: none;
+}
+
+.img-content:nth-child(5) .discount, .img-content:nth-child(5) .type {
+    display: none;
+}
+
+.img-content:nth-child(6) .type {
+    display: none;
+}
+
 .heart {
     width: 30px;
     height: 30px;
@@ -122,4 +138,63 @@ main {
 
 .prize-normal {
     text-decoration: line-through;
+}
+
+.brand {
+    font-size: 15px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1A1A1A;
+    height: 80px;
+}
+
+.footer-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-list li a {
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-left, .footer-right, .footer-list a{
+    color: #fff ;
+}
+
+.icon-list i {
+    margin-right: 5px;
+}
+
+.azienda, .dove-trovarci {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* hover */
+.img-normal:hover {
+    display: none;
+}
+
+.second-image:hover{
+    display: block;
+}
+
+.heart:hover {
+    color: red;
 }
