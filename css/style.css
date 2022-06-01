@@ -41,7 +41,6 @@ header {
 
 .category  {
     display: flex;
-    justify-content: flex-start;
     align-items: center ;
     list-style: none;
     width: 20%;
@@ -81,7 +80,7 @@ main {
 }
 
 .img-content img {
-    width: 96%;
+    width: 97%;
 }
 
 .second-image {
@@ -104,8 +103,9 @@ main {
 
 .discount, .type {
     color: #fff;
-    font-size: 15px;
-    padding: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 10px;
 }
 
 .img-content:nth-child(2) .type, .img-content:nth-child(3) .type {
@@ -187,14 +187,32 @@ footer {
 }
 
 /* hover */
-.img-normal:hover {
+.img-content:hover .img-normal {
     display: none;
 }
 
-.second-image:hover{
+.img-content:hover .second-image {
     display: block;
 }
 
 .heart:hover {
     color: red;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+    color: #FF6800;
+}
+
+.category a:hover {
+    text-decoration: underline;
+    color: #1A1A1A;
+}
+
+.icon-container i:hover {
+    color: #1A1A1A;
+}
+
+.icon-list i:hover {
+    color: #FF6800;
 }
