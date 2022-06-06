@@ -79,7 +79,6 @@ main {
 
 .img-content{
     width: calc(100% / 3);
-    position: relative;
     margin-bottom: 50px;
 }
 
@@ -91,10 +90,13 @@ main {
     display: none;
 }
 
+.img-container {
+    position: relative;
+}
+
 .tag {
     position: absolute;
     bottom: 50px;
-    padding-bottom: 50px;
 }
 
 .discount {
