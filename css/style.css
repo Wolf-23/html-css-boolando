@@ -209,7 +209,7 @@ footer {
 }
 
 .img-content:hover .second-image {
-    display: block;
+    display: inline-block;
 }
 
 .heart:hover {
