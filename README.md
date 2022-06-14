@@ -1,4 +1,4 @@
-# **Esercizio Boolean - Giornale The Booleaner**
+# **Esercizio Boolean - Boolando**
 
 * Nome: html-css-boolando
 * Autore: Lupinu Riccardo
